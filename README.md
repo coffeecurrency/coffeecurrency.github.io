@@ -1,1 +1,2 @@
-# CoffeeCurrency.github.io
+# getcoffee.me
+Coffee's main website available at https://getcoffee.me.

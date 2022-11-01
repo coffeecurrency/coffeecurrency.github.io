@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Coffee</title>
+</head>
+<body>
+    <img src="logo.png" alt="Coffee">
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            animation-name: color;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        img {
+            width: 30%;
+            animation-name: pop;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes pop {
+            0% { width: 30%; }
+            50% { width: 35%; }
+            100% { width: 30%; }
+        }
+
+        @keyframes color {
+            0% { background-color: #f1f1f1; }
+            50% { background-color: #af6f47; }
+            100% { background-color: #f1f1f1; }
+        }
+    </style>
+</body>
+</html>
